@@ -1,2 +1,12 @@
-#너ㅏㅎ머ㅣ너ㅣㄴ ㅓㅜ러ㅏ 눠ㅏㅜ 너ㅠ너후 ㅓ,ㅎㄶ
-#매우어렵군ㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴ
+import sys
+input = sys.stdin.readline
+
+R, C = map(int, input().split())
+
+apart = []
+for i in range(R):
+    apart.append(list(input().strip()))
+for i in range(R):
+    for j in range(C):
+        if apart[i][j] == ".":
+            pass
